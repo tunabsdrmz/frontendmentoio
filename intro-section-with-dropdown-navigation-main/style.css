@@ -1,0 +1,139 @@
+:root{
+    --almost-white:hsl(0, 0%, 98%);
+    --medium-gray: hsl(0, 0%, 41%);
+    --almost-black: hsl(0, 0%, 8%);
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Epilogue , sans-serif;
+    font-size: 18px;
+    background-color: var(--almost-white);
+}
+/*boyutlar
+- Mobile: 375px;
+- Desktop: 1440px;*/
+
+
+#logo-img{
+    padding-top: 0.5em;
+    padding-right: 2em;
+}
+.main-ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: nowrap;
+    gap: 1.5em;
+    color: var(--medium-gray);
+    align-items: center;
+    font-weight: 500;
+}
+.main-ul:hover{
+    cursor: pointer;
+}
+.li-elements:hover{
+    color: var(--almost-black);
+}
+#register{
+    padding: 0.6em 1em;
+    border: 2px solid var(--medium-gray);
+    border-radius: 15px;
+}
+#register:hover{
+    border-color: var(--almost-black);
+    color: var(--almost-black);
+}
+ul :nth-child(6){
+    margin-left: auto;
+}
+ul :nth-child(7){
+    margin-right: 3%;
+}
+h1{
+    padding-top: 1em;
+    padding-left: 1em;
+    font-weight: 700;
+    font-size: 4rem;
+    color: var(--almost-black);
+}
+p{
+    padding-left: 3.5em;
+    text-align: justify;
+    line-height: 1.7em;
+}
+button{
+    padding: 1em 1.5em;
+    margin-left: 5em;
+    margin-top: 1.5em;
+    border: 1px solid var(--almost-black);
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--almost-white);
+    background-color: var(--almost-black);
+}
+button:hover{
+    background-color: var(--almost-white);
+    color: var(--almost-black);
+}
+.section-div{
+    margin-left: 4em;
+    padding-left: 2em;
+    padding-right: 2em;
+    min-height: 70vh;
+    width: 80vw;
+    color: var(--medium-gray);
+}
+#img-hero{
+    float: right;
+    width: fit-content;
+    height: 550px;
+}
+.img-div{
+    margin-left: 9em;
+}
+.img-divimg{
+    padding-left: 2em;
+    justify-content: space-between;
+}
+.attribution{
+    margin-top: 4em;
+}
+#company{
+    position: relative;
+}
+.olcomp{
+    display: none;
+    position: absolute;
+    top: 1.5em;
+    width: auto;
+    list-style: none;
+    line-height: 1.5em;
+    text-align: justify;
+    padding: 1em;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px 1px var(--medium-gray);
+}
+#features{
+    position: relative;
+}
+.olfeat{
+    display: none;
+    position: absolute;
+    top: 1.5em;
+    left: -3.5em;
+    width: auto;
+    list-style: none;
+    line-height: 1.5em;
+    text-align: justify;
+    padding: 1em;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px 1px var(--medium-gray);
+}
+.show{display: block;}
+
